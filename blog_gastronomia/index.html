@@ -1,114 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog gastronomia</title>
-    <!-- estilos de fundation -->
-    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
-    <!-- estilos personalizados -->
+<!-- estilos de fundation -->
+    <link rel="stylesheet" href="css/foundation.min.css">
+<!-- estilos personalizados -->
     <link rel="stylesheet" href="css/app.css">
-    <!-- iconos fundation -->
+<!-- iconos fundation -->
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
-    <!-- javascripts-->
-    <script src="js/jquery.js"></script>
-    <script src="js/what-input.js"></script>
-    <script src="js/foundation.min.js" charset="utf-8"></script>
-    <script src="js/home.js" charset="utf-8"></script>
-    <script src="js/app.js" charset="utf-8"></script>
+<!-- javascripts-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+<div class="row">
+        <div class="row column">
+                <h1>Blog de gastronomia</h1>
+                <h4 class="text-left">Delicias al paladar</h4>
+        </div>
+    <div class="row">
+                    <!--menu lateral -->
+                    <div class="large-4 columns">
+                    <!--boton de busqueda -->
+                    <h3>Busqueda</h3>
+                    <div class="input-group input-group-rounded">
+                        <input class="input-group-field" type="search">
+                            <div class="input-group-button">
+                                <input type="submit" class="button secondary" value="Search">
+                            </div>
+                    </div><!--boton de busqueda -->
+                          <ul class="inline-list rigth">
+                              <ul><a href="#">Inicio</a></ul>
+                              <ul><a href="#">Mi plato perfecto</a></ul>
+                              <ul><a href="#">Mis Recetas</a></ul>
+                          </ul>
+                         <h3>Favoritos.</h3>
+                            <img src="img/plato1.jpg" alt="Decoracion 1" class="thumbnail"/>
+                            <img src="img/plato2.jpg" alt="Decoracion 1" class="thumbnail"/>
+                            <img src="img/plato3.jpg" alt="Decoracion 1" class="thumbnail"/>
+                            <img src="img/plato4.jpg" alt="Decoracion 1" class="thumbnail"/>
+                        <h3>Historial</h3>
+                          <ul class="inline-list rigth">
+                              <ul><a href="#">Macarrones con salsa de calabaza</a></ul>
+                              <ul><a href="#">Bandeja paisa</a></ul>
+                              <ul><a href="#">Ajiaco</a></ul>
+                          </ul>
+                    </div>
+            <!--contedor central -->
+            <div class="large-8 columns">
+                        
+                        <h3>Macarrones con salsa de calabaza</h3>
+                            <p>11/12/2007</p>
+                              <img src="img/receta1.jpg" alt="Macarrones con salsa de calabaza"/>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero    voluptas. Animi ipsa cumque, tempore.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+                   
+                    <!-- formulario de comentarios-->
+                        <form>
+                            <div class="row input-box-container">
+                                <div class="columns">
+                                <label><textarea rows="1" placeholder="Comentarios"></textarea></label>
+                                <div class="user-submit-box">
+                                  <input type="submit" class="button small" value="POST">
+                                </div>
+                                </div>
+                                
+                          </div>
+                        </form>
     
-  </head>
-  <body>
-    <div class="holy-grail-grid">
-  <div class="holy-grail-header">
-    <h3>Blog de gastronomia</h3>
-    <h4 class="holy-grail-left">Delicias para el paladar</h4>
-  </div>
-  <!-- bara de busqueda-->
-  <div class="holy-grail-left">
-    <div class="input-group input-group-rounded">
-      <input class="input-group-field" type="search">
-      <div class="input-group-button">
-      <input type="submit" class="button secondary" value="Search">
-    </div>
-    </div>
-  <!--menu lateral -->
-  <div class="row column">
-      <ul class="menu">
-          <ul><a href="#">Inicio</a></ul>
-          <ul><a href="#">Mi plato perfecto</a></ul>
-          <ul><a href="#">Mis Recetas</a></ul>
-      </ul>
-  </div>
-  <div class="callout">
-    <h3>Favoritos.</h3>
-    <div class="row column">
-      <div class="large-4 small-12 medium-6 columns">
-        <div class="secondary callout text-center">
-          <img src="img/plato1.jpg" alt="Decoracion 1" class="thumbnail"/>
-        </div>
-      </div>
-       <div class="large-4 small-12 medium-6 columns">
-        <div class="secondary callout text-center">
-          <img src="img/plato2.jpg" alt="Decoracion 1" class="thumbnail"/>
-        </div>
-      </div>
-      <div class="large-4 small-12 medium-6 columns">
-        <div class="secondary callout text-center">
-          <img src="img/plato3.jpg" alt="Decoracion 1" class="thumbnail"/>
-        </div>
-      </div>
-      <div class="large-4 small-12 medium-6 columns">
-        <div class="secondary callout text-center">
-          <img src="img/plato4.jpg" alt="Decoracion 1" class="thumbnail"/>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!-- contenedor principal-->
-  <div class="holy-grail-middle">
-    <h3>Macarrones con salsa de calabaza</h3>
-    <p>11/12/2007</p>
-      <img src="img/receta1.jpg" alt="Macarrones con salsa de calabaza" class="thumbnail"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-    <!-- caja de comentarios -->
-<div class="status-update-input-box">
-  <form>
-     <div class="row input-box-container">
-      <div class="columns">
-        <label>
-          <textarea rows="2" placeholder="Comentarios"></textarea>
-        </label>
-      </div>
-        <div class="user-submit-box">
-          <input type="submit" class="button small" value="POST">
-        </div>
-    </div>
-  </form>
-</div>
+                        
+                        <h3>Curry de Carne Molida</h3>
+                            <p>15/08/2008</p>
+                            <img src="img/receta2.jpg" alt="Curry de Carne Molida"/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
 
-  <div class="holy-grail-middle">
-    <h3>Curry de Carne Molida</h3>
-    <p>15/08/2008</p>
-      <img src="img/receta2.jpg" alt="Curry de Carne Molida" class="thumbnail"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias mollitia debitis at atque temporibus ratione molestiae id eos, cupiditate numquam dolor vero totam, quisquam libero voluptas. Animi ipsa cumque, tempore.</p>
-    <div class="status-update-input-box">
-  <form>
-     <div class="row input-box-container">
-      <div class="columns">
-        <label>
-          <textarea rows="2" placeholder="Comentarios"></textarea>
-        </label>
-      </div>
-        <div class="user-submit-box">
-          <input type="submit" class="button small" value="POST">
+                    <!-- formulario de comentarios-->
+                      <form>
+                            <div class="row input-box-container">
+                                <div class="columns">
+                                <label><textarea rows="1" placeholder="Comentarios"></textarea></label>
+                                <div class="user-submit-box">
+                                  <input type="submit" class="button small" value="POST">
+                                </div>
+                                </div>
+                                
+                          </div>
+                        </form>
+            </div>
         </div>
     </div>
-  </form>
-</div>
-</div>
-</div>
 </body>
 </html>
